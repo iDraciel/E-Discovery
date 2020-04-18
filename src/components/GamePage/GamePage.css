@@ -1,0 +1,123 @@
+
+.gameCover{
+    display:flex;
+    flex-direction: column;
+    flex:0 calc(50%-20px);
+    background-image: linear-gradient(45deg,rgba(152,3,112,1),rgba(233,47,113,1));
+    width:80%;
+    height:auto;
+    border-radius:2px;
+    margin:0 130px 140px;
+    border:1px solid rgba(123,3,152,1);
+}
+
+.Btn{
+    height:35px;
+    width:175px;
+    background-color: rgba(123,3,152,1);
+    margin: 10px;
+    border:none;
+    color:white;
+    float: right;
+}
+.Btn:hover{
+    box-shadow: 0 10px 10px rgba(233,47,113,1);
+}
+
+.socialMediaHandles{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 130px;
+  width:80%;
+  color:rgba(255,255,255,1);
+  position:relative;
+  bottom:100px;
+  flex:0 calc(50%-20px);
+}  
+
+
+.Youtube-Videos{
+    position: relative;
+    bottom:50px;
+    width:80%;
+    margin-left: 130px;
+}
+.video-container{
+    display:flex;
+    justify-content: space-between;
+}
+.video{
+    height:200px;
+    width:301px;
+    margin:10px 10px;
+    border-radius:3px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    flex:0 calc(50%-20px);
+}
+ .Video-Heading{
+    color:white;
+    text-align:left;
+ }
+ .gamePageContainer{
+     margin-top: 100px;
+ }
+ .btn-Container{
+    display:flex;
+    align-self:flex-end;
+ }
+
+ .discordText{
+    font-size:20px;
+    font-weight:bold;
+    position:relative;
+    left:180px;
+ }
+.fb{
+    margin-left:15px;
+}
+ .discordImg{
+    margin-left:10px;
+    position:relative;
+    left:200px;
+ }
+@media(max-width:600px){
+    .gameCover{
+        width:390px;
+        margin-left: 10px;
+
+    }
+    .video-container{
+       flex-direction: column; 
+    }
+    .Video-Heading{
+        font-size: 25px;
+    }
+    .Youtube-Videos{
+        width: 100%;
+        margin-left: 60px;
+    }
+    .Btn{
+        width:130px;
+        height: 40px;
+        font-size: larger;
+    }
+    .discordText{
+        left:15px;
+    }
+
+    .socialMediaHandles{
+        margin-left: 100px;
+    }
+    .discordImg{
+         left:-100px;
+         top:50px;
+    }
+    .fb{
+        position:relative;
+        left:-280px;
+        top:60px;
+    }
+}
